@@ -31,7 +31,7 @@ if __name__ == "__main__":
     main()
 
 import streamlit as st
-from main import skindiseases
+import skindiseases
 
 # Function to diagnose skin diseases based on symptoms
 def diagnose_skin_disease(symptoms):
