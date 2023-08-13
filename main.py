@@ -8,6 +8,28 @@ def diagnose_skin_disease(symptoms):
     # For simplicity, this example just returns a static result.
     if 'rash' in symptoms:
         return "You might have a skin rash."
+    if 'eczema' in symptoms:
+        return "You might have eczema."
+    if 'psoriasis' in symptoms:
+        return "You might have psoriasis."
+    if 'acne' in symptoms:
+        return "You might have acne."
+    if 'dermatitis' in symptoms:
+        return "You might have dermatitis."
+    if 'vitiligo' in symptoms:
+        return "You might have vitiligo."
+    if 'rosacea' in symptoms:
+        return "You might have rosacea."
+    if 'hives' in symptoms:
+        return "You might have hives."
+    if 'melanoma' in symptoms:
+        return "You might have melanoma."
+    if 'lichen planus' in symptoms:
+        return "You might have lichen planus."
+    if 'pityriasis rosea' in symptoms:
+        return "You might have pityriasis rosea."
+    if 'pimples on face' in symptoms:
+        return "You might have Acne."
     else:
         return "No specific diagnosis could be made."
 
